@@ -1,0 +1,7 @@
+<span class="like" id="<%= "micropost-#{micropost.id}-like" %>">
+  <% if like %>
+    <%= link_to "unlike", micropost_like_path(micropost, format: :js), method: :delete, remote: true %>
+  <% else %>
+    <%= link_to "like", micropost_like_path(micropost, format: :js), method: :patch, remote: true %>
+  <% end %>
+</span>

@@ -1,3 +1,15 @@
+いいね機能参考実装
+==================
+
+Railsチュートリアルのサンプルアプリケーションにいいね機能を実装しました。
+
+実装した例については[6_0_0/ch14](6_0_0/ch14)を見てください。
+
+以下、オリジナルのREADMEをそのまま記載しています。
+
+---
+
+
 [![Railsチュートリアル_バナー画像](http://yasslab.jp/img/header-railstutorial.png)](https://railstutorial.jp/)
 
 # Rails チュートリアル sample_app コード集

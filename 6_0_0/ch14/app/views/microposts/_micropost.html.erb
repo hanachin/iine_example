@@ -12,4 +12,5 @@
                                        data: { confirm: "You sure?" } %>
     <% end %>
   </span>
+  <%= render 'microposts/like', micropost: micropost, like: micropost.my_like %>
 </li>
